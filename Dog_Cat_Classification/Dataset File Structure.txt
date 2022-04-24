@@ -1,0 +1,16 @@
+You can use any cat dogs dataset just use following file structure 
+  dataset
+  |- single_prediction
+      |- cat or dog images mixed up
+      
+  |- test_set
+      |- cat
+          |- cat images
+      |- dog
+          |- dog images
+          
+  |- training_set
+      |- cat
+          |- cat images
+      |- dog
+          |- dog images
