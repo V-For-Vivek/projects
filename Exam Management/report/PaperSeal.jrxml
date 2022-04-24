@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="paperseal1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="408e5859-6f8f-48b7-9b8f-27a58766b964">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Exam"/>
+	<queryString language="SQL">
+		<![CDATA[select * from paperseal join office on paperseal.id=office.id]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="course" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="course"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="year" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="year"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="master" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="master"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="time" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="time"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="papercode" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="papercode"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="subabb" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="subabb"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="subject" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="subject"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="nab" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="nab"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="mn" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="mn"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="so" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="so"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="paperseal"/>
+	</field>
+	<field name="COLUMN_13" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<field name="noi" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="noi"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<field name="coi" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="coi"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<field name="noss" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="noss"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<field name="cnss" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="cnss"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<field name="noc" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="noc"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<field name="ina" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ina"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<field name="ic" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="ic"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="office"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="52" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="554" height="30" uuid="e1d89259-4ec1-42a2-a36b-313cd082bc1f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[MAHARASHTRA STATE BOARD OF TECHNICAL EDUCATION, MUMBAI.]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="412" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="554" height="342" uuid="b412839d-3a45-486c-84c5-9c71f39fe722"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="15" y="15" width="120" height="30" uuid="bacebf36-68d9-4924-af9c-80b88d85c5ab"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Center Code : ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="135" y="15" width="60" height="30" uuid="8994eaaa-8df9-486a-88a2-7805f3ca7ef9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ic}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="195" y="15" width="70" height="31" uuid="d3919ae1-aab0-4c06-9b1a-d1b509cf1347"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Course :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="295" y="15" width="60" height="31" uuid="c947f00a-cc43-42f3-92ca-f33d4ad85c18"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Year :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="355" y="15" width="61" height="31" uuid="9eca6694-a972-484b-b854-dd38a77331e6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{year}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="415" y="15" width="71" height="31" uuid="d502c11e-6954-4e55-8145-87f8dee8015b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Master :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="486" y="15" width="58" height="31" uuid="b18a9a11-241a-44a1-9f0a-45c6eb3c106a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{master}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="15" y="55" width="60" height="31" uuid="44168c91-6a6d-4873-9cbc-5eb85a7af0d1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Date :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="75" y="55" width="100" height="31" uuid="9014425e-5af8-4136-896f-053394e98491"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="175" y="55" width="70" height="31" uuid="d6df5981-46cf-4d6b-ac04-9249e86e0332"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Time :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="245" y="55" width="241" height="31" uuid="6a824270-128e-45b9-9ae0-a91009cf03e1"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{time}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="15" y="95" width="100" height="31" uuid="5ff9585b-23df-4216-a055-53c4033b2cc6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Paper Code :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="115" y="95" width="90" height="31" uuid="7fc6c9ed-d356-445e-9681-6266b6b288bf"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{papercode}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="205" y="95" width="160" height="31" uuid="ae5d8473-655f-43cd-8254-0e441380851a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Subject Abbrivation :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="365" y="95" width="111" height="31" uuid="25548359-341f-44d7-a312-9f31c9d88dbf"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subabb}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="15" y="135" width="80" height="31" uuid="f60b56b9-4d1f-460d-b778-fd2db2f9b161"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Subject :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="95" y="135" width="291" height="31" uuid="fd22e838-573b-4e40-9163-5789d063629f"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{subject}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="15" y="175" width="150" height="31" uuid="8d39b5a8-1c8e-4c2f-9b0c-d143d143638d"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[No.of Ans.Books :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="165" y="175" width="101" height="31" uuid="71ca9e60-c57d-47c1-ab1b-ef3fb7ec716a"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nab}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="265" y="175" width="130" height="31" uuid="abd27865-cc4d-408a-952e-68fa8d010cd8"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Marksheet No. :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="395" y="175" width="141" height="31" uuid="3e151d34-5612-4310-b1ea-2c7fba8002b0"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{mn}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="15" y="215" width="104" height="31" uuid="d83164a9-6168-4051-814e-82e83a0f16ca"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="18"/>
+				</textElement>
+				<text><![CDATA[Sealed on :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="119" y="215" width="141" height="31" uuid="157a15d3-54e7-48b4-bbb6-c5edcc45184e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{so}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="25" y="315" width="140" height="21" uuid="5e50da63-64a2-481c-87e3-9ec4c7ba4d2a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[Sealing Supervisior]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="205" y="315" width="161" height="21" uuid="2d3f49e3-990d-4bf8-8348-5e62228ba3d6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[Controller of Exam.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="396" y="315" width="141" height="21" uuid="c0244bca-865f-43a2-8082-ed804a61e170"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[Officer In-Charge]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="266" y="15" width="29" height="30" uuid="1922bf70-f9a9-4bff-aa48-ef881015b671"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{course}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="30" y="290" width="130" height="25" uuid="2958ba87-73a6-45bc-a064-7d3e3bed902d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{noss}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="215" y="290" width="140" height="25" uuid="8fdde3e2-e555-4b24-a0a6-10ab3c3ac665"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{noc}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="400" y="290" width="130" height="25" uuid="476b2a08-b301-42e4-b0d0-a8a0f903b2cd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="15"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{noi}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

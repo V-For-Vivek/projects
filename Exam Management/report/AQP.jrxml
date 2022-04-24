@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="AQP" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d528dfcd-4348-42d9-bf7c-7ffaacd92544">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="80" splitType="Stretch">
+			<staticText>
+				<reportElement x="80" y="0" width="401" height="41" uuid="7c8ea2ce-7163-4bc2-83de-35779655b4fe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="19"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ACCOUNT OF QUESTION PAPERS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="40" width="550" height="31" uuid="e1b610ce-8fe6-41c0-a392-7c45ae3c7609"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[To be submitted by hte Officer Incharge Examination Center .]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="116" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="260" height="21" uuid="0871edeb-6603-4bf3-bd41-6183007dfe0b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[Examination Center Institute Code :-]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="262" y="0" width="101" height="21" uuid="46c668de-2682-4172-92b8-eb50ec96c921"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="31" width="180" height="21" uuid="1b356206-489b-4ed8-af14-8af402c99a91"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[Name of the Institute :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="31" width="370" height="21" uuid="5fd1d2a5-d566-4bd3-9a90-d0a3c5b2b2ec"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="60" width="160" height="22" uuid="d8be6a4c-4c85-4608-899b-cb40d564c8ca"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[Date Of Examination :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="160" y="60" width="130" height="22" uuid="1bddb767-efb0-4e26-9d1b-6634e251949f"/>
+				<textElement>
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<textField>
+				<reportElement x="350" y="0" width="130" height="21" uuid="c4f253e0-dfca-4d54-a2b3-c89a25f3f99a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="320" y="21" width="191" height="24" uuid="2079abfd-f042-418a-a3fd-4a271c229928"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Signature of Officer In-Charge]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="102" splitType="Stretch">
+			<staticText>
+				<reportElement x="2" y="0" width="98" height="20" uuid="0ea0e959-5967-4a42-ba83-ed74e9e15035"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Three  Copies .]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="75" width="250" height="27" uuid="8cbc5696-489d-43b6-a536-9d1ff08c4328"/>
+				<textElement>
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[3. Officer In-Charge Examination Center .]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="50" width="252" height="27" uuid="fc6063f7-af23-4389-98f9-e00e16d3e866"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[2. Controller of Examination .]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="30" width="252" height="27" uuid="e2ebb79c-a4a6-4587-aa9a-f6332f6c8e51"/>
+				<textElement>
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[1. Officer In-Charge Distribution Center .]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="50" splitType="Stretch"/>
+	</summary>
+</jasperReport>
