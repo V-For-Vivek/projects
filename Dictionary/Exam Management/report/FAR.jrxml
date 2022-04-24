@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FAR" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e3a20248-96c8-49cf-bd1f-46fea2dc6f6b">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="53" splitType="Stretch">
+			<staticText>
+				<reportElement x="60" y="0" width="465" height="31" uuid="5470f093-f410-4d3f-b5de-fd2d308c40fd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="16"/>
+				</textElement>
+				<text><![CDATA[MAHARASHTRA STATE BOARD OF TECHNICAL EDUCATION, MUMBAI .]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="31" width="203" height="21" uuid="b8530fff-5969-4244-b51d-7894fb710010"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Format for Attendance Report ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="31" width="71" height="21" uuid="9f2de542-05aa-4c88-9d04-4fd41f5ccb51"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FORM : 17]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="1" width="90" height="21" uuid="4f5b0a0f-0e2e-468a-b79e-951935eae323"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Institute Code :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="90" y="1" width="40" height="21" uuid="62e1dfaf-6357-4a2d-922a-c4de597038fe"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="137" y="1" width="110" height="21" uuid="bfc83654-c81b-410c-8a4c-ed8418bed569"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Name Of Institute : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="247" y="1" width="304" height="21" uuid="4bafa95f-1b75-4335-9d10-6a15add4a1fd"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="13"/>
+				</textElement>
+				<text><![CDATA[INSTITUTE OF CIVIL & RURAL ENGG, GARGOTI .]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="25" width="220" height="21" uuid="196660af-6501-4261-a982-c198d8061f08"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Attendance Report Of  Examination :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="221" y="25" width="65" height="21" uuid="6afc8817-f106-43de-8874-a2bb9792e743"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="25" width="40" height="21" uuid="685803cf-d690-4756-9958-4e0470c6915a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="68" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="1" width="40" height="21" uuid="304dacea-f2cf-4cb9-9363-2596fad91bb1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Date :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="40" y="0" width="70" height="22" uuid="3a936d33-dbdf-49df-aaf3-8cdaea66479b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="120" y="0" width="50" height="22" uuid="e922c341-ca91-4dd4-9067-45ad0b7051b6"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Time  :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="170" y="0" width="120" height="22" uuid="42121539-6f79-4eee-b0f6-d45c3c565993"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="320" y="0" width="130" height="21" uuid="7acf9706-46f7-4184-998f-c2ebc21b822c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Year-Course-Master  :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="455" y="0" width="70" height="22" uuid="b85dd278-a762-408d-a41e-c1427dd5bfbe"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="22" width="150" height="21" uuid="73494ec3-bbc2-4084-a5b2-72deb053dbf4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Examination Block No. :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="150" y="22" width="40" height="21" uuid="411e9f2b-2553-496a-8662-8aa1607b3964"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="202" y="22" width="128" height="21" uuid="a9f193a4-bf54-4625-a66b-b2ad2683cd07"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Name of Supervisor  :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="335" y="21" width="105" height="22" uuid="3bed5db5-8939-4ba5-b4d1-85951d6594f3"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="43" width="108" height="21" uuid="a0fd953b-b5a7-49ad-adb7-884eaa646eac"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Name of Subject  :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="43" width="230" height="21" uuid="d633c3f2-c5b2-41b1-ac61-f84c4193ed3c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="372" y="43" width="108" height="21" uuid="187d7179-29de-4478-955d-4d23d3b5b366"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Sub. Code No  :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="480" y="42" width="70" height="22" uuid="8632461b-8383-4d0b-8618-946b882be29e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+		<band height="50"/>
+		<band height="50"/>
+		<band height="50"/>
+		<band height="50"/>
+	</detail>
+	<columnFooter>
+		<band height="73" splitType="Stretch">
+			<staticText>
+				<reportElement x="165" y="15" width="58" height="21" uuid="f8e86b33-f95a-4d95-b920-8675b54e0ed1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Absent  :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="223" y="15" width="60" height="21" uuid="91f0199b-d734-414d-9efd-efc0dbe0f9b4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="283" y="15" width="40" height="21" uuid="201d2644-86f2-4e90-9475-a7cf023f010b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[=]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="15" width="58" height="21" uuid="104e46c7-3fc3-42c1-9a72-e3262ffa7462"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Present  :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="65" y="15" width="60" height="21" uuid="fb8cfc2c-f12c-44b4-82f2-b0dd814ecd00"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="125" y="15" width="40" height="21" uuid="90de302a-2aab-4f8a-9b39-531e966c373d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="323" y="15" width="37" height="21" uuid="274413d6-c52e-4bd0-8d6d-12cb92a44840"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="15" width="23" height="21" uuid="8a8e2cc8-fe55-4c3a-bf61-41b32b6a7655"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[40]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="43" width="187" height="21" uuid="a1e8023e-fa24-4bab-8251-958dd1a4cb5e"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Signature Of Block Supervisor  :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="43" width="90" height="21" uuid="cb9cdde8-8e3d-47f9-b69e-c59ccdcd4342"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[_______________]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="405" y="30" width="120" height="22" uuid="b36abc5e-2fc4-48c3-a9ed-5bfae4a2a47b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="350" y="52" width="201" height="21" uuid="d70de8d2-2ca6-4bd7-a8c9-b20ceccb7fb9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Signature Of Officer-Incharge]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="3" y="0" width="280" height="21" uuid="79c68bc6-5b1d-4433-bead-fd25e708c396"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="13"/>
+				</textElement>
+				<text><![CDATA[2 COPIES ON DIFFERENT COLOUR PAPER ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="535" height="21" uuid="0e857145-26eb-46d2-a747-4677e1720152"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Serif" size="13"/>
+				</textElement>
+				<text><![CDATA[1 ST COPY FORWARDED WITH ANSWER BOOK BUNDLE , 2 ND COPY FOR OFFICE USB]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="470" y="0" width="55" height="21" uuid="ed1ea83e-8558-4eaf-b0ee-3aa89dea0afb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="405" y="0" width="65" height="21" uuid="eed6113b-5c71-4548-932e-7173c0d74e2f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="14" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[null]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
